@@ -1,0 +1,165 @@
+$date
+2020-10-10T01:29+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Hanning $end
+ $var wire 64 ! _GEN_37 $end
+ $var wire 32 # _GEN_16 $end
+ $var wire 1 $ io_HanningSignal_ready $end
+ $var wire 2 & _GEN_10 $end
+ $var wire 1 ' _T $end
+ $var wire 32 ( io_signal_bits_value $end
+ $var wire 1 ) io_signal_ready $end
+ $var wire 1 * _GEN_25 $end
+ $var wire 32 + _GEN_19 $end
+ $var wire 2 . _GEN_13 $end
+ $var wire 32 / cosinesbank_rcnt $end
+ $var wire 2 0 _GEN_8 $end
+ $var wire 32 1 cosinesbank_value $end
+ $var wire 48 2 _GEN_39 $end
+ $var wire 64 3 _GEN_24 $end
+ $var wire 32 5 cosine_value_value $end
+ $var wire 32 6 _GEN_33 $end
+ $var wire 2 7 state $end
+ $var wire 2 9 _GEN_12 $end
+ $var wire 32 : _GEN_15 $end
+ $var wire 2 ; _GEN_7 $end
+ $var wire 32 = io_HanningSignal_bits_value $end
+ $var wire 1 > io_cosines_ready $end
+ $var wire 32 A io_cosines_bits_value $end
+ $var wire 1 B io_HanningSignal_valid $end
+ $var wire 32 C cosinesbank_wcnt $end
+ $var wire 32 D _GEN_41 $end
+ $var wire 1 E clock $end
+ $var wire 1 F io_signal_valid $end
+ $var wire 32 G _GEN_23 $end
+ $var wire 48 I _GEN_38 $end
+ $var wire 1 J _GEN_17 $end
+ $var wire 1 K _GEN_26 $end
+ $var wire 2 N _GEN_11 $end
+ $var wire 32 Q _GEN_14 $end
+ $var wire 2 R _GEN_6 $end
+ $var wire 32 T _GEN_0 $end
+ $var wire 2 V _GEN_9 $end
+ $var wire 1 W reset $end
+ $var wire 32 X hanning_signal_value $end
+ $var wire 1 Y io_cosines_valid $end
+ $var wire 48 [ _GEN_40 $end
+  $scope module cosinesbank_value $end
+    $scope module _T_4 $end
+     $var wire 1 " clk $end
+     $var wire 32 % data $end
+     $var wire 10 8 pipeline_addr_0 $end
+     $var wire 1 ? pipeline_valid_0 $end
+     $var wire 1 @ mask $end
+     $var wire 1 H en $end
+     $var wire 10 L addr $end
+     $var wire 1 O valid $end
+     $var wire 32 P pipeline_data_0 $end
+    $upscope $end
+    $scope module _T_28 $end
+     $var wire 10 , addr $end
+     $var wire 32 < data $end
+     $var wire 1 M clk $end
+     $var wire 1 U en $end
+    $upscope $end
+    $scope module _T_34 $end
+     $var wire 1 - en $end
+     $var wire 32 4 data $end
+     $var wire 1 S clk $end
+     $var wire 10 Z addr $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00000000000000000000000000000000 D
+b00000000000000000000000000000000 <
+b0000000000 ,
+b0000000000 Z
+0"
+b00000000000000000000000000000000 #
+b00000000000000000000000000000000 :
+b0000000000000000000000000000000000000000000000000000000000000000 3
+b00000000000000000000000000000000 Q
+b00000000000000000000000000000000 4
+0J
+b00000000000000000000000000000000 6
+0-
+b00 0
+b00000000000000000000000000000000 G
+b0000000000 L
+0F
+0)
+0H
+b00000000000000000000000000000000 A
+1@
+b00000000000000000000000000000000 X
+b00000000000000000000000000000000 C
+0B
+0W
+b00 .
+b00 &
+0Y
+b00000000000000000000000000000000 =
+b00000000000000000000000000000000 (
+0'
+b0000000000000000000000000000000000000000000000000000000000000000 !
+0S
+b00000000000000000000000000000000 T
+b000000000000000000000000000000000000000000000000 [
+0>
+0U
+0M
+b00 V
+b00 9
+b00000000000000000000000000000000 P
+0O
+b00 ;
+b00 R
+b00000000000000000000000000000000 5
+0K
+b00 7
+b00000000000000000000000000000000 /
+0E
+b00 N
+b00000000000000000000000000000000 1
+b0000000000 8
+0?
+b000000000000000000000000000000000000000000000000 2
+0*
+b00000000000000000000000000000000 +
+b000000000000000000000000000000000000000000000000 I
+0$
+b00000000000000000000000000000000 %
+$end
+#0
+1U
+1J
+1*
+1W
+#1
+1"
+1S
+1E
+1M
+#6
+0"
+0S
+0$
+0E
+0W
+0M
+#11
+1"
+1S
+1E
+1M
+#16
+0E

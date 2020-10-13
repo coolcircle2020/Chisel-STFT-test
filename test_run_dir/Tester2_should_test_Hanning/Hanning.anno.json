@@ -1,0 +1,33 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Hanning|Hanning>io_cosines_ready",
+    "sources":[
+      "~Hanning|Hanning>io_cosines_valid"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Hanning|Hanning>io_signal_ready",
+    "sources":[
+      "~Hanning|Hanning>io_HanningSignal_ready",
+      "~Hanning|Hanning>io_signal_valid"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/Tester2_should_test_Hanning"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"Hanning"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Tester2_should_test_Hanning"
+  }
+]

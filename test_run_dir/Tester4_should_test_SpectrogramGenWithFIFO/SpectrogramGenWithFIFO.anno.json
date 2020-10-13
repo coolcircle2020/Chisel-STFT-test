@@ -1,0 +1,33 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~SpectrogramGenWithFIFO|SpectrogramGenWithFIFO>io_FFTsignal_ready",
+    "sources":[
+      "~SpectrogramGenWithFIFO|SpectrogramGenWithFIFO>io_FFTsignal_valid"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~SpectrogramGenWithFIFO|SpectrogramGenWithFIFO>io_Spectrogram_bits_value",
+    "sources":[
+      "~SpectrogramGenWithFIFO|SpectrogramGenWithFIFO>io_Spectrogram_ready",
+      "~SpectrogramGenWithFIFO|SpectrogramGenWithFIFO>io_FFTsignal_valid"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/Tester4_should_test_SpectrogramGenWithFIFO"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"SpectrogramGenWithFIFO"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Tester4_should_test_SpectrogramGenWithFIFO"
+  }
+]
